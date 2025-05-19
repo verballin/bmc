@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>BMC : About Us</title>
+    <title>BMC : Tentang Kami</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -77,21 +77,13 @@
                 <?php } ?>
             </div>
 
-                <a href="<?= base_url()?>" class="nav-item nav-link">Home</a>
-                <a href="<?= site_url('about') ?>" class="nav-item nav-link">About</a>
+                <a href="<?= base_url()?>" class="nav-item nav-link">Beranda</a>
+                <a href="<?= site_url('about') ?>" class="nav-item nav-link">Tentang</a>
                 <a href="<?= site_url('courses') ?>" class="nav-item nav-link">Kursus</a>
                 <?php if($isLoggedIn) { ?>
                 <a href="<?= site_url('#') ?>" class="nav-item nav-link">Simulasi</a>
                 <?php } ?>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a href="<?= site_url('team') ?>" class="dropdown-item">Our Team</a>
-                        <a href="<?= site_url('testimonial') ?>" class="dropdown-item">Testimonial</a>
-
-                    </div>
-                </div>
-                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Contact</a>
+                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Kontak</a>
      
                 </div>
                 
@@ -111,11 +103,11 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">About Us</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Tentang Kami</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Beranda</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Tentang</li>
                         </ol>
                     </nav>
                 </div>
@@ -130,59 +122,21 @@
             <div class="row g-5">
 
                 <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start pe-3">About Us</h6>
-                    <h1 class="mb-4" style="color: #fb873f;">Welcome to Bimbel Mora College</h1>
+                    <h6 class="section-title bg-white text-start pe-3">Tentang Kami</h6>
+                    <h1 class="mb-4" style="color: #fb873f;">Visi dan Misi Bimbel Mora College</h1>
                     <p class="mb-4">
-                        At Secret Coder, we believe in accessible, innovative learning experiences that adapt to your
-                        schedule and learning style. Join us in embracing the future of education and unlock your
-                        potential with our immersive online courses.
+                        Menjadi lembaga bimbingan belajar terdepan yang mencetak generasi unggul, berprestasi, dan berkarakter
+                        melalui pembelajaran yang inovatif, inspiratif, dan berdaya saing global.
                     </p>
-                    <p class="mb-4">Welcome to Secret Coder, where learning knows no boundaries. Our mission
-                        is to empower individuals worldwide through accessible and innovative education. Here's what
-                        sets us apart:</p>
-
-                    <h3 class="mb-4">Our Vision</h3>
-                    <p class="mb-4">At Secret Coder, we envision a world where learning is accessible to everyone,
-                        regardless of their location, background, or circumstances. We strive to break barriers and make
-                        education a transformative and inclusive experience for all.</p>
-
-                    <h3 class="mb-4">A Commitment to Excellence</h3>
-                    <p class="mb-4"> We are dedicated to providing top-quality education. Our team collaborates with
-                        industry experts and educators to curate courses that meet the highest standards, ensuring our
-                        learners receive valuable and up-to-date knowledge.</p>
-
-                    <h3 class="mb-4">Empowering Learners</h3>
-
-                    <p class="mb-4">We believe in the transformative power of education. Secret Coder is
-                        designed to empower individuals to pursue their passions, advance their careers, and acquire new
-                        skills in a dynamic and supportive environment.</p>
-
-                    <h3 class="mb-4">Innovation in Learning</h3>
-
-                    <p class="mb-4">Embracing technology, we offer innovative learning methods and tools. From
-                        interactive modules to live sessions, we're committed to providing a cutting-edge learning
-                        experience that fosters engagement and knowledge retention.</p>
-
-                    <h3 class="mb-4">Community-Centric Approach</h3>
-
-                    <p class="mb-4"> Secret Coder is more than just courses; it's a vibrant community. We
-                        encourage collaboration, discussion, and knowledge sharing among learners, fostering an
-                        environment of growth and camaraderie.</p>
-
-                    <h3 class="mb-4">Diverse and Inclusive Education</h3>
-
-                    <p class="mb-4">We celebrate diversity in perspectives, cultures, and ideas. Our diverse course
-                        offerings cater to various interests and skill levels, ensuring that everyone finds a learning
-                        path that resonates with them.</p>
-
-                    <h3 class="mb-4">Continuous Improvement</h3>
-
-                    <p class="mb-4">We are always evolving. Feedback from our learners helps us continually enhance our
-                        platform, ensuring it remains dynamic, responsive, and aligned with the evolving needs of our
-                        users.</p>
-
-                    <p class=" mt-5 mb-4">Thank you! for being a part of Secret Coder. Together, let's embark on a
-                        journey of lifelong learning and growth.</p>
+                    
+                    <h3 class="mb-3">Misi</h3>
+                    <ul class="mb-4">
+                        <li class="mb-2">Menyediakan layanan pendidikan berkualitas dengan pendekatan personal dan metode belajar yang efektif, menyenangkan, serta adaptif terhadap kebutuhan siswa.</li>
+                        <li class="mb-2">Mengembangkan potensi akademik dan karakter siswa melalui program pembelajaran terpadu yang mencakup aspek kognitif, afektif, dan psikomotorik.</li>
+                        <li class="mb-2">Mengintegrasikan teknologi dan inovasi pembelajaran dalam setiap kegiatan bimbingan untuk meningkatkan daya serap dan minat belajar siswa.</li>
+                        <li class="mb-2">Menciptakan lingkungan belajar yang suportif, profesional, dan inspiratif guna membangun kepercayaan diri dan semangat berprestasi.</li>
+                        <li class="mb-2">Menyiapkan siswa untuk menghadapi tantangan pendidikan masa kini dan masa depan, termasuk ujian masuk sekolah/kampus unggulan serta pengembangan keterampilan abad 21.</li>
+                    </ul>
 
                 </div>
 
@@ -197,23 +151,20 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <p><a class="text-light" href="<?= site_url('about') ?>">About Us</a></p>
-                    <p><a class="text-light" href="<?= site_url('contact') ?>">Contact Us</a></p>
-                    <p><a class="text-light" href="#">Privacy Policy</a></p>
-                    <p><a class="text-light" href="#">Terms & Condition</a></p>
-                    <p><a class="text-light" href="#">FAQs & Help</a></p>
+                    <h4 class="text-white mb-3">Tautan Cepat</h4>
+                    <p><a class="text-light" href="<?= site_url('about') ?>">Tentang Kami</a></p>
+                    <p><a class="text-light" href="<?= site_url('contact') ?>">Hubungi Kami</a></p>
+                    <p><a class="text-light" href="<?= site_url('courses') ?>">Kursus</a></p>
+
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
+                    <h4 class="text-white mb-3">Kontak</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Jalan Farrel Pasaribu, Simpang GG. Rambutan Daerah, Jl. Lapangan Sepak Bola, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21121</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0821-6329-9216</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>kursuonline.moracollege@gmail.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://x.com/CollegeMora"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/moracollege/"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
             </div>

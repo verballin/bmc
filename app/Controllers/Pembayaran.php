@@ -91,6 +91,10 @@ class Pembayaran extends BaseController
 
     public function instruksi($id)
     {
+        $session = session();
+        $userId = $session->get('user_id'); // asumsikan ini ID user login
+        $userRole = $session->get('role');
+
         $pembayaranModel = new PembayaranModel();
         $produkModel = new ProdukModel();
 
@@ -98,6 +102,11 @@ class Pembayaran extends BaseController
 
         if (!$pembayaran) {
             return redirect()->to('/courses')->with('error', 'Data pembayaran tidak ditemukan.');
+        }
+
+        // Jika bukan admin dan bukan pemilik pembayaran, tolak akses
+        if ($userRole !== 'Admin' && $pembayaran['user_id'] != $userId) {
+            return redirect()->to(base_url())->with('error', 'Anda tidak berhak mengakses halaman ini.');
         }
 
         $produk = $produkModel->find($pembayaran['id_produk']);

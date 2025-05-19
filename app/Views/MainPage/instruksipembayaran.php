@@ -28,15 +28,15 @@
                 <h5>Silakan transfer ke rekening berikut:</h5>
                 <ul>
                     <li><strong>Bank:</strong> BCA</li>
-                    <li><strong>No. Rekening:</strong> 1234567890</li>
+                    <li><strong>No. Rekening:</strong> -</li>
                     <li><strong>Atas Nama:</strong> BMC Education</li>
                 </ul>
             <?php elseif ($pembayaran['metode_pembayaran'] == 'dana') : ?>
                 <h5>Transfer Pembayaran ke link Dana berikut untuk membayar:</h5>
-                <p><strong>Rekening Dana: </strong> 012851025120581</p>
+                <p><strong>Rekening Dana: </strong> 0821-6329-9216</p>
             <?php endif; ?>
 
-            <p class="mt-4">Setelah pembayaran, silakan hubungi admin atau unggah bukti pembayaran melalui dashboard.</p>
+            <p class="mt-4">Setelah pembayaran, silakan hubungi admin atau unggah bukti pembayaran melalui WA : 0821-6329-9216.</p>
 
             <div class="text-center mt-4">
                 <a href="<?= base_url()?>" class="btn btn-primary">Kembali ke Home</a>

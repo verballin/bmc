@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>BMC : Contact</title>
+    <title>BMC : Kontak</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -77,21 +77,13 @@
                 <?php } ?>
             </div>
 
-                <a href="<?= base_url()?>" class="nav-item nav-link">Home</a>
+                <a href="<?= base_url()?>" class="nav-item nav-link">Beranda</a>
                 <a href="<?= site_url('about') ?>" class="nav-item nav-link">About</a>
                 <a href="<?= site_url('courses') ?>" class="nav-item nav-link">Kursus</a>
                 <?php if($isLoggedIn) { ?>
                 <a href="<?= site_url('#') ?>" class="nav-item nav-link">Simulasi</a>
                 <?php } ?>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a href="<?= site_url('team') ?>" class="dropdown-item">Our Team</a>
-                        <a href="<?= site_url('testimonial') ?>" class="dropdown-item">Testimonial</a>
-
-                    </div>
-                </div>
-                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Contact</a>
+                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Kontak</a>
      
                 </div>
                 
@@ -111,11 +103,11 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Contact</h1>
+                    <h1 class="display-3 text-white animated slideInDown">Kontak</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                            <li class="breadcrumb-item"><a class="text-white" href="<?= base_url() ?>">Beranda</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Kontak</li>
                         </ol>
                     </nav>
                 </div>
@@ -128,19 +120,19 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="mb-5 bg-white text-center px-3">Contact Us</h1>
+                <h1 class="mb-5 bg-white text-center px-3">Hubungi Kami</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h5>Mora College Tutoring: A Sure Step Towards Success!</h5>
-                    <p class="mb-4">Mora College Tutoring has been proven as a leading tutoring institution that has successfully passed many students in various important selections, including CPNS and other academic exams. With years of experience, we are committed to providing the best guidance for every student who wants to achieve achievements and a bright future.</p>
+                    <h5>Bimbel Mora College: Langkah Pasti Menuju Sukses!</h5>
+                    <p class="mb-4">Bimbel Mora College telah terbukti menjadi lembaga bimbingan terdepan yang telah berhasil meluluskan banyak siswa dalam berbagai seleksi penting, termasuk CPNS dan ujian akademik lainnya. Dengan pengalaman bertahun-tahun, kami berkomitmen memberikan bimbingan terbaik bagi setiap siswa yang ingin meraih prestasi dan masa depan yang cerah.</p>
                     <div class="d-flex align-items-center mb-3">
                         <div class="d-flex align-items-center justify-content-center flex-shrink-0"
                             style="width: 50px; height: 50px; background-color: #fb873f;">
                             <i class="fa fa-map-marker-alt text-white"></i>
                         </div>
                         <div class="ms-3">
-                            <h5>Office</h5>
+                            <h5>Kantor</h5>
                             <p class="mb-0"> Jalan Farrel Pasaribu, Simpang GG. Rambutan Daerah, Jl. Lapangan Sepak Bola, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21121</p>
                         </div>
                     </div>
@@ -150,7 +142,7 @@
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ms-3">
-                            <h5>Phone Number</h5>
+                            <h5>No. Telepon</h5>
                             <p class="mb-0">0821-6329-9216</p>
                         </div>
                     </div>
@@ -190,23 +182,20 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <p><a class="text-light" href="<?= site_url('about') ?>">About Us</a></p>
-                    <p><a class="text-light" href="<?= site_url('contact') ?>">Contact Us</a></p>
-                    <p><a class="text-light" href="#">Privacy Policy</a></p>
-                    <p><a class="text-light" href="#">Terms & Condition</a></p>
-                    <p><a class="text-light" href="#">FAQs & Help</a></p>
+                    <h4 class="text-white mb-3">Tautan Cepat</h4>
+                    <p><a class="text-light" href="<?= site_url('about') ?>">Tentang Kami</a></p>
+                    <p><a class="text-light" href="<?= site_url('contact') ?>">Hubungi Kami</a></p>
+                    <p><a class="text-light" href="<?= site_url('courses') ?>">Kursus</a></p>
+
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
+                    <h4 class="text-white mb-3">Kontak</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Jalan Farrel Pasaribu, Simpang GG. Rambutan Daerah, Jl. Lapangan Sepak Bola, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21121</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0821-6329-9216</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>kursuonline.moracollege@gmail.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://x.com/CollegeMora"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/moracollege/"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
             </div>

@@ -82,21 +82,13 @@
                 <?php } ?>
             </div>
 
-                <a href="<?= base_url()?>" class="nav-item nav-link">Home</a>
-                <a href="<?= site_url('about') ?>" class="nav-item nav-link">About</a>
+                <a href="<?= base_url()?>" class="nav-item nav-link">Beranda</a>
+                <a href="<?= site_url('about') ?>" class="nav-item nav-link">Tentang</a>
                 <a href="<?= site_url('courses') ?>" class="nav-item nav-link">Kursus</a>
                 <?php if($isLoggedIn) { ?>
                 <a href="<?= site_url('#') ?>" class="nav-item nav-link">Simulasi</a>
                 <?php } ?>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a href="<?= site_url('team') ?>" class="dropdown-item">Our Team</a>
-                        <a href="<?= site_url('testimonial') ?>" class="dropdown-item">Testimonial</a>
-
-                    </div>
-                </div>
-                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Contact</a>
+                <a href="<?= site_url('contact') ?>" class="nav-item nav-link">Kontak</a>
      
                 </div>
                 
@@ -124,14 +116,13 @@
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-8">
                                 <h5 class=" text-uppercase mb-3 animated slideInDown" style="color: #fb873f;">Best
-                                    E-learning platform</h5>
-                                <h1 class="display-3 text-white animated slideInDown">Mora College Tutoring: Proven success in CPNS & academic exams.</h1>
-                                <p class=" text-white mb-4 pb-2">Explore a wide range of courses designed to enhance
-                                    your expertise in technology, business, arts, and more. Start learning today!</p>
+                                    Platform pembelajaran elektronik terbaik</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Bimbingan Belajar di Mora College: Terbukti Sukses dalam Ujian CPNS & Akademik.</h1>
+                                <p class=" text-white mb-4 pb-2">Jelajahi berbagai kursus yang dirancang untuk meningkatkan keahlian Anda dalam teknologi, bisnis, seni, dan banyak lagi. Mulailah belajar hari ini!</p>
                                 <a href="<?= site_url('about') ?>"
-                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="<?= site_url('signup') ?>" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join
-                                    Now</a>
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Baca selengkapnya</a>
+                                <a href="<?= site_url('signup') ?>" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Bergabunglah
+                                    </a>
                             </div>
                         </div>
                     </div>
@@ -144,16 +135,13 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-8">
-                                <h5 class=" text-uppercase mb-3 animated slideInDown" style="color: #fb873f;">Welcome to
-                                    Bimbel Mora College</h5>
-                                <h1 class="display-3 text-white animated slideInDown">Expert guidance for a bright future!
+                                <h5 class=" text-uppercase mb-3 animated slideInDown" style="color: #fb873f;">Selamat Datang di Bimbel Mora College</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Panduan ahli untuk masa depan cerah!
                                 </h1>
-                                <p class=" text-white mb-4 pb-2">Engage with interactive lessons, quizzes, and
-                                    projects. Experience hands-on learning that keeps you motivated and inspired.</p>
+                                <p class=" text-white mb-4 pb-2">Ikuti pelajaran interaktif, kuis, dan proyek. Rasakan pembelajaran langsung yang membuat Anda termotivasi dan terinspirasi.</p>
                                 <a href="<?= site_url('about') ?>"
-                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="<?= site_url('signup') ?>" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join
-                                    Now</a>
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Baca selengkapnya</a>
+                                <a href="<?= site_url('signup') ?>" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Bergabunglah</a>
                             </div>
                         </div>
                     </div>
@@ -169,9 +157,8 @@
         <div class="container">
             <div class="row g-2 text-center">
                 <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
-                    <h1 style="color: #fb873f;">Invest in your professional goals with Secret Coder</h1>
-                    <p class="mb-5">Get unlimited access to over 90% of courses, Projects, Specializations, and
-                        Professional Certificates on Coursera, taught by top instructors.</p>
+                    <h1 style="color: #fb873f;">Investasikan dalam tujuan profesional Anda bersama BMC</h1>
+                    <p class="mb-5">Dapatkan akses tak terbatas ke lebih dari 90% kursus, Proyek, Spesialisasi, dan Sertifikat Profesional di BMC, yang diajarkan oleh instruktur top.</p>
                 </div>
             </div>
             <div class="row g-4">
@@ -179,8 +166,8 @@
                     <div class="service-item text-center pt-3 shadow">
                         <div class="p-4">
                             <img src="brem/img/icon1.png" alt="" width="60px" class="mb-4">
-                            <h5 class="mb-3">Learn anything</h5>
-                            <p>Explore any interest or trending topic, take prerequisites, and advance your skills</p>
+                            <h5 class="mb-3">Belajar apa saja</h5>
+                            <p>Jelajahi minat atau topik terkini, ambil prasyarat, dan tingkatkan keterampilan Anda</p>
                         </div>
                     </div>
                 </div>
@@ -188,8 +175,8 @@
                     <div class="service-item text-center pt-3 shadow">
                         <div class="p-4">
                             <img src="brem/img/icon2.png" alt="" width="60px" class="mb-4">
-                            <h5 class="mb-3">Save money</h5>
-                            <p>Spend less money on your learning if you plan to take multiple courses this year</p>
+                            <h5 class="mb-3">Hemat Biaya</h5>
+                            <p>Hemat lebih banyak untuk pembelajaran Anda jika berencana mengikuti banyak kursus tahun ini</p>
                         </div>
                     </div>
                 </div>
@@ -197,8 +184,8 @@
                     <div class="service-item text-center pt-3 shadow">
                         <div class="p-4">
                             <img src="brem/img/icon3.png" alt="" width="60px" class="mb-4">
-                            <h5 class="mb-3">Flexible learning</h5>
-                            <p>Learn at your own pace, move between multiple courses, or switch to a different course
+                            <h5 class="mb-3">Pembelajaran fleksibel</h5>
+                            <p>Belajar sesuai dengan kemampun Anda sendiri, berpindah antar kursus, atau beralih ke kursus lain
                             </p>
                         </div>
                     </div>
@@ -207,8 +194,8 @@
                     <div class="service-item text-center pt-3 shadow">
                         <div class="p-4">
                             <img src="brem/img/icon4.png" alt="" width="60px" class="mb-4">
-                            <h5 class="mb-3">Unlimited certificates</h5>
-                            <p>Earn a certificate for every learning program that you complete at no additional cost</p>
+                            <h5 class="mb-3">Sertifikat tanpa batas</h5>
+                            <p>Dapatkan sertifikat untuk setiap program pembelajaran yang Anda selesaikan tanpa biaya tambahan</p>
                         </div>
                     </div>
                 </div>
@@ -229,36 +216,36 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start pe-3">About Us</h6>
-                    <h1 class="mb-4" style="color: #fb873f;">Welcome to Mora College</h1>
-                    <p class="mb-4">At Secret Coder, we believe in accessible, innovative learning experiences that
-                        adapt to your schedule and learning style. Join us in embracing the future of education and
-                        unlock your potential with our immersive online courses.</p>
-                    <p class="mb-4"> Welcom to Secret Coder, your gateway to boundless learning opportunities. We're
-                        dedicated to democratizing education, offering a diverse range of courses taught by industry
-                        experts. Our mission is to empower learners worldwide, fostering a community-driven platform
-                        where knowledge knows no limits.</p>
+                    <h6 class="section-title bg-white text-start pe-3">Tentang Kami</h6>
+                    <h1 class="mb-4" style="color: #fb873f;">Selamat Datang di BMC</h1>
+                    <p class="mb-4">Di BMC, kami percaya pada pengalaman belajar yang mudah diakses dan inovatif
+                    yang menyesuaikan dengan jadwal serta gaya belajar Anda. Bergabunglah bersama kami dalam merangkul
+                    masa depan pendidikan dan buka potensi Anda melalui kursus online yang mendalam.</p>
+                    <p class="mb-4"> Selamat datang di BMC, gerbang Anda menuju peluang belajar tanpa batas. Kami
+                    berdedikasi untuk mendemokratisasi pendidikan, menawarkan beragam kursus yang diajarkan oleh para
+                    ahli industri. Misi kami adalah memberdayakan pelajar di seluruh dunia, membangun platform berbasis
+                    komunitas di mana pengetahuan tidak mengenal batas.</p>
                     <div class="row gy-2 gx-4 mb-4">
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Expert Instructors</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right  me-2"></i>Instruktur Ahli</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Live Interactive Sessions</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Sesi Interaktif Langsung</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Comprehensive Course Catalog</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Katalog Kursus Lengkap</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Community Engagement</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Keterlibatan Komunitas</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Personalized Learning Paths</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Jalur Belajar yang Dipersonalisasi</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Certification and Recognition</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right me-2"></i>Sertifikasi dan Pengakuan</p>
                         </div>
                     </div>
-                    <a class="btn text-light py-3 px-5 mt-2" href="<?= site_url('about') ?>">Read More</a>
+                    <a class="btn text-light py-3 px-5 mt-2" href="<?= site_url('about') ?>">Selengkapnya</a>
                 </div>
             </div>
         </div>
@@ -274,11 +261,10 @@
             <div class="row g-5 ">
                 <div class="col-lg-6 p-5 wow fadeInUp" data-wow-delay="0.3s">
 
-                    <h1 class="mb-4" style="color: #fb873f;">Explore Free Courses</h1>
-                    <p class="mb-4">Start your online learning journey at Great Learning Academy for free with our
-                        short-term basic courses across various in-demand domains.</p>
+                    <h1 class="mb-4" style="color: #fb873f;">Jelajahi Kursus Gratis</h1>
+                    <p class="mb-4">Mulailah perjalanan belajar onlinemu di Great Learning Academy secara gratis dengan kursus dasar jangka pendek di berbagai bidang yang banyak diminati.</p>
 
-                    <a class="btn text-light py-3 px-5 mt-2" href="<?= site_url('signup') ?>">Start For Free</a>
+                    <a class="btn text-light py-3 px-5 mt-2" href="<?= site_url('signup') ?>">Mulai Gratis</a>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
@@ -297,89 +283,14 @@
     <div class="container-xxl py-5 category">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center px-3">Categories</h6>
-                <h1 class="mb-5" style="color: #fb873f;">Popular Topics to Explore</h1>
+                <h6 class="section-title bg-white text-center px-3">Jelajahi Kursus Gratis</h6>
+                <h1 class="mb-5" style="color: #fb873f;">Mulailah perjalanan belajar onlinemu di BMC Mora College secara gratis dengan kursus dasar jangka pendek di berbagai bidang yang banyak diminati.</h1>
+                <a class="btn text-light py-3 px-5 mt-2" href="<?= site_url('signup') ?>">Mulai Gratis</a>
             </div>
-            <div class="row g-2 m-2">
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="brem/img/cat1.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">Microsoft Excel</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="brem/img/cat2.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center"> AWS</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="brem/img/cat3.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">Python</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="brem/img/cat4.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">Java</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="brem/img/cat5.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">Web Design</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="brem/img/cat6.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">Web Development</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="brem/img/cat7.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">MySQL</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6  text-center">
-                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
-
-                        <img src="brem/img/cat8.png" class="img-fluid" alt="categories"></i>
-
-                        <h5 class="my-2">
-                            <a href="#" class="text-center">UI/UX Design</a>
-                        </h5>
-                    </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="img-fluid position-absolute w-100 h-100" src="brem/img/banner-1.jpg" alt=""
+                        style="object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -387,430 +298,13 @@
     <!-- Categories End -->
 
 
-   <!-- Courses Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center px-3">Popular Courses</h6>
-                <h1 class="mb-5" style="color: #fb873f;">Explore new and trending free online courses</h1>
-            </div>
-            <div class="row g-4 py-2">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="brem/img/course-1.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1"><a href="single.php" class="text-dark">HTML Course for Beginners </a></h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.55</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>5.8L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>2.0
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="brem/img/course-2.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
-                                class="px-2 py-1 fw-bold text-uppercase">PAID</div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Front End Development-CSS
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.55</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>5.2L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>4.0
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 199</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="brem/img/course-3.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Introduction to JavaScript
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.46</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>76L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>2.5
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="brem/img/course-4.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
-                                class="px-2 py-1 fw-bold text-uppercase">PAID</div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Python Programming
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                3.54</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>3.3L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.0
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 299</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="brem/img/course-5.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">SQL for Data Science
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-star text-warning me-2"></i>
-                                4.54</small>
-                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-user-graduate me-2"></i>1.3L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-1"><i
-                                    class="fa fa-user me-2"></i>Intermediate</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>5.0
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="brem/img/course-6.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">ChatGPT for Beginners
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                3.55</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>3.5L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>4.5
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="brem/img/course-7.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">AWS for Beginners
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.53</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>1L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.0
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="brem/img/course-8.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
-                                class="px-2 py-1 fw-bold text-uppercase">PAID</div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Microsoft Azure Essentials
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-star text-warning me-2"></i>
-                                4.64</small>
-                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-user-graduate me-2"></i>4.4L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-1"><i
-                                    class="fa fa-user me-2"></i>Intermediate</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.5
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 149</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="brem/img/course-9.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Introduction to MS Excel</h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.6</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>4.2L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.5
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="brem/img/course-10.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
-                                class="px-2 py-1 fw-bold text-uppercase">PAID</div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Statistics For Data Science
-                            
-                                
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-star text-warning me-2"></i>
-                                4.55</small>
-                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-user-graduate me-2"></i>5.3L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-1"><i
-                                    class="fa fa-user me-2"></i>Intermediate</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>2.5
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 299</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="brem/img/course-11.jpg" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">Java Programming
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.45</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>5L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>2.0
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item shadow">
-                        <div class="position-relative overflow-hidden text-light image">
-                            <img class="img-fluid" src="brem/img/course-12.png" alt="">
-                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
-                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
-
-                        </div>
-                        <div class="p-2 pb-0">
-
-                            <h5 class="mb-1">C for Beginners
-                            </h5>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
-                                4.5</small>
-                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>1.1L+
-                                Learners
-                            </small>
-                            <small class="flex-fill text-center py-1 px-2"><i
-                                    class="fa fa-user me-2"></i>Beginner</small>
-                        </div>
-                        <div class="d-flex">
-                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>1.5
-                                Hrs</small>
-                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
-                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
-                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <div class="container text-center">
-        <a class="btn text-light py-3 px-5 mt-2 mb-5" href="<?= site_url('courses') ?>">All Courses</a>
-    </div>
-    <!-- Courses End -->
-
-
-    <!-- Banner-2 Start -->
-    <section class="pb-5" style="background: url('brem/img/banner-3.jpg');">
-        <div class="container-xxl mt-5" >
-            <div class="container" >
-                <div class="row g-5 ">
-    
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                        <div class="position-relative h-100">
-                            <img class="img-fluid position-absolute w-100 h-100 bg-light" src="brem/img/banner-2.png" alt=""
-                                style="object-fit: cover;">
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-6 p-5 wow fadeInUp" data-wow-delay="0.3s">
-    
-                        <h1 class="mb-4" style="color: #fb873f;">Become an Instructor</h1>
-                        <p class="mb-4 text-white">Instructors from around the world teach millions of learners on Udemy. We provide
-                            the tools and skills to teach what you love.</p>
-    
-                        <a class="btn text-light py-3 mt-2" href="<?= site_url('instructor') ?>">Start Teaching Today</a>
-                    </div>
-    
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Banner-2 End -->
 
     <!-- FAQ Start  -->
     <div class="container-xxl py-5 category">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 
-                <h1 class="mb-5">Frequently Asked Questions</h1>
+                <h1 class="mb-5">Pertanyaan yang Sering Diajukan</h1>
             </div>
             <div class="row g-2">
                 <div class="col-12">
@@ -818,67 +312,67 @@
                         <div class="accordion-item">
                           <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                What is the Secret Coder ?
+                                Apa itu BMC?
                             </button>
                           </h2>
                           <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                The Secret Coder is an initiative taken by Secret Coder, where we offer 1000+ free online courses in cutting-edge technologies and have successfully enrolled a whopping 5 Million+ learners across all domains. Secret Coder covers courses on Data Science, Machine Learning, Artificial Intelligence, Cloud Computing, Software Development, Sales and Business Development, Digital Marketing, Big Data, and many more.
+                                BMC adalah sebuah inisiatif yang menawarkan kursus online terbaik dalam teknologi terkini dan telah berhasil mendaftarkan lebih dari 100+ pelajar di berbagai bidang. BMC mencakup kursus CPNS, TOEFL, SNBT, Psikotes, dan masih banyak lagi!
                             </div>
                           </div>
                         </div>
                         <div class="accordion-item">
                           <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Why should I choose Great Learning Academy for free courses with certificates ?
+                                Mengapa saya harus memilih BMC untuk kursus gratis bersertifikat?
                             </button>
                           </h2>
                           <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                Great Learning Academy is an excellent choice for free courses with certificates because of the high quality of the learning content. The courses are well-crafted, offer a great learning experience, and are interactive and engaging, making them ideal for learners in identifying what works best for their career goals.
+                                BMC adalah pilihan yang sangat baik untuk kursus dengan sertifikat karena kualitas konten pembelajarannya yang tinggi. Kursus-kursus tersebut dirancang dengan baik, menawarkan pengalaman belajar yang luar biasa, serta interaktif dan menarik, sehingga sangat cocok bagi pelajar dalam menentukan jalur karier mereka.
                             </div>
                           </div>
                         </div>
                         <div class="accordion-item">
                           <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                How many free courses can I enroll in at the same time?
+                                Berapa banyak kursus gratis yang bisa saya ikuti sekaligus?
                             </button>
                           </h2>
                           <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                You can simultaneously enroll in multiple courses at Secret Coder.
+                                Anda dapat mengikuti beberapa kursus secara bersamaan di BMC.
                             </div>
                           </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                How can I enroll in these free online courses?
+                                Bagaimana cara mendaftar kursus online gratis ini?
                               </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                You can click on the “Sign Up” button at the top-right of the page and register with your email address, or you can sign up using your Google Account.       
+                                Anda dapat mengklik tombol “Daftar” pada halaman dan mendaftar menggunakan alamat email dan nama Anda.
                                 </div>
                             </div>
                           </div>
                           <div class="accordion-item">
                             <h2 class="accordion-header">
                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                What are the most popular free courses offered by Secret Coder ?
+                                Apa saja kursus paling populer yang ditawarkan oleh BMC?
                               </button>
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                               <div class="accordion-body">
-                                Secret Coder focuses on in-demand concepts and skills, where learners can develop industry-relevant knowledge in their chosen sector. It provides a wide range of courses in prestigious fields, assisting learners across the globe in achieving their professional goals.
+                                BMC berfokus pada konsep dan keterampilan yang paling diminati, membantu pelajar mengembangkan pengetahuan yang relevan dengan industri pilihan mereka.
 
-                                <p>Some of the most popular free courses offered by Secret Coder that are in high demand today include:</p>
+                                <p>Beberapa kursus gratis paling populer dari BMC yang banyak diminati saat ini antara lain:</p>
                                 <ul>
-                                    <li>Free Data Science Courses</li>
-                                    <li>Free Artificial Intelligence Courses</li>
-                                    <li>Free Software Courses</li>
-                                    <li>Free Cloud Computing Courses</li>
+                                    <li>Kursus CPNS</li>
+                                    <li>Kursus TOEFL</li>
+                                    <li>Kursus SNBT</li>
+                                    <li>Kursus Kedinasan</li>
                                 </ul>
                               </div>
                             </div>
@@ -895,34 +389,20 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <p><a class="text-light" href="<?= site_url('about') ?>">About Us</a></p>
-                    <p><a class="text-light" href="<?= site_url('contact') ?>">Contact Us</a></p>
-                    <p><a class="text-light" href="">Privacy Policy</a></p>
-                    <p><a class="text-light" href="">Terms & Condition</a></p>
-                    <p><a class="text-light" href="">FAQs & Help</a></p>
+                    <h4 class="text-white mb-3">Tautan Cepat</h4>
+                    <p><a class="text-light" href="<?= site_url('about') ?>">Tentang Kami</a></p>
+                    <p><a class="text-light" href="<?= site_url('contact') ?>">Hubungi Kami</a></p>
+                    <p><a class="text-light" href="<?= site_url('courses') ?>">Kursus</a></p>
+
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
+                    <h4 class="text-white mb-3">Kontak</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Jalan Farrel Pasaribu, Simpang GG. Rambutan Daerah, Jl. Lapangan Sepak Bola, Kec. Siantar Marihat, Kota Pematang Siantar, Sumatera Utara 21121</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0821-6329-9216</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>kursuonline.moracollege@gmail.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="<?= base_url()?>">BMC</a>, 2025.
-
+                        <a class="btn btn-outline-light btn-social" href="https://x.com/CollegeMora"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/moracollege/"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
             </div>
