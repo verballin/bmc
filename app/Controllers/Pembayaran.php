@@ -133,4 +133,21 @@ class Pembayaran extends BaseController
         return redirect()->to(site_url('historipembelian'))->with('success', 'Status diperbarui');
     }
 
+
+    public function deletepembelian($id_pembayaran) {
+        $session = session();
+        if($session->get('username') != '' && $session->get('login')==true){
+            $pembayaranModel = new PembayaranModel();
+            $pembayaranModel->delete($id_pembayaran);
+            $session->setFlashdata('pesan', 
+                                '<div class="alert alert-success alert-dismissible">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                    <h5><i class="icon fas fa-check"></i> Data Berhasil Dihapus</h5></div>');
+        return redirect()->to(site_url('historipembelian'));
+        }else{
+            return redirect()->to(base_url());
+        }                    
+    }
+
+
 }

@@ -20,6 +20,8 @@ $routes->post('pembayaran/simpanpembayaran', 'Pembayaran::simpanpembayaran');
 $routes->get('pembayaran/proses/(:segment)', 'Pembayaran::proses/$1');
 $routes->get('pembayaran/instruksi/(:num)', 'Pembayaran::instruksi/$1');
 $routes->post('pembayaran/updateStatus/(:num)', 'Pembayaran::updateStatus/$1');
+$routes->get('pembayaran/deletepembelian/(:num)', 'Pembayaran::deletepembelian/$1');
+
 
 
 

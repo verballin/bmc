@@ -188,7 +188,13 @@
                                 <?php endif ?>
                             </td>
                             <td><?= esc(date('d-m-Y H:i', strtotime($item['created_at']))) ?></td>
-                            <td> <a href="<?= site_url('pembayaran/instruksi/' . $item['id_pembayaran']) ?>" class="btn btn-sm btn-info">Lihat</a></td>
+                            <td> 
+                                <a href="<?= site_url('pembayaran/instruksi/' . $item['id_pembayaran']) ?>" class="btn btn-sm btn-info">Lihat</a>
+                                
+                                <?php if ($item['status'] === 'pending') : ?>
+                                <a href="<?= site_url('pembayaran/deletepembelian/' . $item['id_pembayaran']) ?>" class="btn btn-sm btn-danger" onclick="return confirm('Apakah anda yakin untuk membatalkan pembelian ini?');">Batalkan Pembelian</a>
+                                <?php endif ?>
+                            </td>
                         </tr>
                     <?php endforeach ?>
                 </tbody>
